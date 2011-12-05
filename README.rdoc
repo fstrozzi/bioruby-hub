@@ -1,6 +1,6 @@
 = bio-hub
 
-Description goes here.
+A BioRuby plugin to describe and centralize bioinformatics analysis
 
 == Contributing to bio-hub
  
