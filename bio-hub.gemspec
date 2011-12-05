@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Francesco Strozzi"]
   s.date = "2011-12-05"
-  s.description = "TODO: longer description of your gem"
+  s.description = "A BioRuby plugin to describe and centralize bioinformatics analysis"
   s.email = "francesco.strozzi@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -19,10 +19,12 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "bio-hub.gemspec",
     "lib/bio-hub.rb",
     "test/helper.rb",
     "test/test_bio-hub.rb"
@@ -31,7 +33,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "A BioRuby plugin to describe and centralize bioinformatics analysis"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
